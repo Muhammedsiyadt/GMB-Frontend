@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     jsconfigPaths(),
   ],
-  base: '/', // This ensures all assets are served from /demo/localseo/
+  base: '/demo/localseo/', // This ensures all assets are served from /demo/localseo/
   define: {
     global: 'window'
   },
