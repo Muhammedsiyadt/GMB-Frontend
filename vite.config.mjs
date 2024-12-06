@@ -5,7 +5,7 @@ import jsconfigPaths from 'vite-jsconfig-paths';
 
 export default defineConfig({
   plugins: [
-    react(),
+    react(), 
     jsconfigPaths(),
   ],
   base: '/demo/localseo/', // This ensures all assets are served from /demo/localseo/
